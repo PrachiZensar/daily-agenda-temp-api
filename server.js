@@ -32,6 +32,7 @@ app.get('/getUnreadNotificationCount/:id', function(req, res, next) {
 });
 
 
+
 app.get('/getWaitingGuestList/:shopId/:date', function(req, res, next) {
 	res.send({
 	   "msg": "Waiting guest list",
@@ -42,7 +43,7 @@ app.get('/getWaitingGuestList/:shopId/:date', function(req, res, next) {
 				timeIn: "10:30",
 				guestName: "John Shannon",
 				phone: "999-999-999",
-				interest: "Sofas,
+				interest: "Sofas",
 				notes: "abcd",
 				status: "waiting",
 				assignedTo: "Christian Fischer",
@@ -54,7 +55,7 @@ app.get('/getWaitingGuestList/:shopId/:date', function(req, res, next) {
 				timeIn: "11:30 AM",
 				guestName: "Blaze Shannon",
 				phone: "999-999-996",
-				interest: "Chandeliers,
+				interest: "Chandeliers",
 				notes: "",
 				status: "waiting",
 				assignedTo: "Mia Verse",
@@ -77,6 +78,64 @@ app.get('/getWaitingGuestList/:shopId/:date', function(req, res, next) {
 	});
 });
 
+
+
+app.get('/getCompletedGuestList/:shopId/:date', function(req, res, next) {
+	res.send({
+		   "msg": "Completed guest list",
+		   "success": true,
+			"data":[
+				{
+				    id: "123",
+					timeIn: "10:30",
+					guestName: "John Shannon",
+					phone: "999-999-999",
+					interest: "Sofas",
+					notes: "abcd",
+					status: "called",
+					assignedTo: "Christian Fischer",
+					location: "FLR-1",
+					apt-start-time: "11:00",
+				},
+				{
+				    id: "124",
+					timeIn: "11:30 AM",
+					guestName: "Blaze Shannon",
+					phone: "999-999-996",
+					interest: "Chandeliers",
+					notes: "",
+					status: "helped",
+					assignedTo: "Mia Verse",
+					location: "FLR-2",
+					apt-start-time: "13:10",
+				},
+				{
+				    id: "125",
+					timeIn: "13:30",
+					guestName: "Sharay Mendez",
+					phone: "999-999-992",
+					interest: "Tables",
+					notes: "abcd",
+					status: "helped",
+					assignedTo: "Kara Boland",
+					location: "",
+					apt-start-time: "13:30",
+				},
+				{
+				    id: "126",
+					timeIn: "13:30",
+					guestName: "Susan Miller",
+					phone: "999-999-222",
+					interest: "Tables",
+					notes: "abcd",
+					status: "left",
+					assignedTo: "",
+					location: "",
+					apt-start-time: "",
+				}
+			]
+	});
+});
 app.get('/getReadNotificationCount/:id', function(req, res, next) {
 	res.send({
 	   "msg": "count",
