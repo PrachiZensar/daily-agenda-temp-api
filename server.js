@@ -32,6 +32,50 @@ app.get('/getUnreadNotificationCount/:id', function(req, res, next) {
 });
 
 
+app.get('/getWaitingGuestList/:shopId/:date', function(req, res, next) {
+	res.send({
+	   "msg": "Waiting guest list",
+	   "success": true,
+		"data":[
+			{
+			    id: "123",
+				timeIn: "10:30",
+				guestName: "John Shannon",
+				phone: "999-999-999",
+				interest: "Sofas,
+				notes: "abcd",
+				status: "waiting",
+				assignedTo: "Christian Fischer",
+				location: "FLR-1",
+				addToAgenda: true,
+			},
+			{
+			    id: "124",
+				timeIn: "11:30 AM",
+				guestName: "Blaze Shannon",
+				phone: "999-999-996",
+				interest: "Chandeliers,
+				notes: "",
+				status: "waiting",
+				assignedTo: "Mia Verse",
+				location: "FLR-2",
+				addToAgenda: false,
+			},
+			{
+			    id: "125",
+				timeIn: "13:30",
+				guestName: "Sharay Mendez",
+				phone: "999-999-992",
+				interest: "Tables",
+				notes: "abcd",
+				status: "call-back",
+				assignedTo: "Kara Boland",
+				location: "",
+				addToAgenda: true,
+			}
+		]
+	});
+});
 
 app.get('/getReadNotificationCount/:id', function(req, res, next) {
 	res.send({
