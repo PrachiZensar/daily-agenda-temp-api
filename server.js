@@ -40,7 +40,7 @@ app.get('/getWaitingGuestList/:shopId/:date', function(req, res, next) {
 		"data":[
 			{
 			    id: "123",
-				timeIn: "10:30",
+				timeIn: "2019-05-14 10:30",
 				guestName: "John Shannon",
 				phone: "999-999-999",
 				interest: "Sofas",
@@ -52,7 +52,7 @@ app.get('/getWaitingGuestList/:shopId/:date', function(req, res, next) {
 			},
 			{
 			    id: "124",
-				timeIn: "11:30",
+				timeIn: "2019-05-14 11:30",
 				guestName: "Blaze Shannon",
 				phone: "999-999-996",
 				interest: "Chandeliers",
@@ -64,7 +64,7 @@ app.get('/getWaitingGuestList/:shopId/:date', function(req, res, next) {
 			},
 			{
 			    id: "125",
-				timeIn: "13:30",
+				timeIn: "2019-05-14 13:30",
 				guestName: "Sharay Mendez",
 				phone: "999-999-992",
 				interest: "Tables",
@@ -87,7 +87,7 @@ app.get('/getCompletedGuestList/:shopId/:date', function(req, res, next) {
 			"data":[
 				{
 				    id: "123",
-					timeIn: "10:30",
+					timeIn: "2019-05-14 10:30",
 					guestName: "John Shannon",
 					phone: "999-999-999",
 					interest: "Sofas",
@@ -95,11 +95,11 @@ app.get('/getCompletedGuestList/:shopId/:date', function(req, res, next) {
 					status: "Called",
 					assignedTo: "Christian Fischer",
 					location: "FLR-1",
-					aptStartTime: "11:00",
+					aptStartTime: "2019-05-14 11:00",
 				},
 				{
 				    id: "124",
-					timeIn: "11:30",
+					timeIn: "2019-05-14 11:30",
 					guestName: "Blaze Shannon",
 					phone: "999-999-996",
 					interest: "Chandeliers",
@@ -107,11 +107,11 @@ app.get('/getCompletedGuestList/:shopId/:date', function(req, res, next) {
 					status: "Helped",
 					assignedTo: "Mia Verse",
 					location: "FLR-2",
-					aptStartTime: "13:10",
+					aptStartTime: "2019-05-14 13:10",
 				},
 				{
 				    id: "125",
-					timeIn: "13:30",
+					timeIn: "2019-05-14 13:30",
 					guestName: "Sharay Mendez",
 					phone: "999-999-992",
 					interest: "Tables",
@@ -119,11 +119,11 @@ app.get('/getCompletedGuestList/:shopId/:date', function(req, res, next) {
 					status: "Helped",
 					assignedTo: "Kara Boland",
 					location: "",
-					aptStartTime: "13:30",
+					aptStartTime: "2019-05-14 13:30",
 				},
 				{
 				    id: "126",
-					timeIn: "13:30",
+					timeIn: "2019-05-14 13:30",
 					guestName: "Susan Miller",
 					phone: "999-999-222",
 					interest: "Tables",
