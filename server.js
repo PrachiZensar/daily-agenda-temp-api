@@ -95,7 +95,7 @@ app.get('/getCompletedGuestList/:shopId/:date', function(req, res, next) {
 					status: "called",
 					assignedTo: "Christian Fischer",
 					location: "FLR-1",
-					apt-start-time: "11:00",
+					aptStartTime: "11:00",
 				},
 				{
 				    id: "124",
@@ -107,7 +107,7 @@ app.get('/getCompletedGuestList/:shopId/:date', function(req, res, next) {
 					status: "helped",
 					assignedTo: "Mia Verse",
 					location: "FLR-2",
-					apt-start-time: "13:10",
+					aptStartTime: "13:10",
 				},
 				{
 				    id: "125",
@@ -119,7 +119,7 @@ app.get('/getCompletedGuestList/:shopId/:date', function(req, res, next) {
 					status: "helped",
 					assignedTo: "Kara Boland",
 					location: "",
-					apt-start-time: "13:30",
+					aptStartTime: "13:30",
 				},
 				{
 				    id: "126",
@@ -131,11 +131,12 @@ app.get('/getCompletedGuestList/:shopId/:date', function(req, res, next) {
 					status: "left",
 					assignedTo: "",
 					location: "",
-					apt-start-time: "",
+					aptStartTime: "",
 				}
 			]
 	});
 });
+
 app.get('/getReadNotificationCount/:id', function(req, res, next) {
 	res.send({
 	   "msg": "count",
