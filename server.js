@@ -52,7 +52,7 @@ app.get('/getWaitingGuestList/:shopId/:date', function(req, res, next) {
 			},
 			{
 			    id: "124",
-				timeIn: "11:30 AM",
+				timeIn: "11:30",
 				guestName: "Blaze Shannon",
 				phone: "999-999-996",
 				interest: "Chandeliers",
@@ -99,7 +99,7 @@ app.get('/getCompletedGuestList/:shopId/:date', function(req, res, next) {
 				},
 				{
 				    id: "124",
-					timeIn: "11:30 AM",
+					timeIn: "11:30",
 					guestName: "Blaze Shannon",
 					phone: "999-999-996",
 					interest: "Chandeliers",
