@@ -40,7 +40,7 @@ app.get('/getWaitingGuestList/:shopId/:date', function(req, res, next) {
 		"data":[
 			{
 			    id: "123",
-				timeIn: "2019-05-14 10:30",
+				timeIn: "2019-05-15 5:30",
 				guestName: "John Shannon",
 				phone: "999-999-999",
 				interest: "Sofas",
@@ -52,7 +52,7 @@ app.get('/getWaitingGuestList/:shopId/:date', function(req, res, next) {
 			},
 			{
 			    id: "124",
-				timeIn: "2019-05-14 11:30",
+				timeIn: "2019-05-15 6:30",
 				guestName: "Blaze Shannon",
 				phone: "999-999-996",
 				interest: "Chandeliers",
@@ -64,7 +64,7 @@ app.get('/getWaitingGuestList/:shopId/:date', function(req, res, next) {
 			},
 			{
 			    id: "125",
-				timeIn: "2019-05-14 13:30",
+				timeIn: "2019-05-15 7:00",
 				guestName: "Sharay Mendez",
 				phone: "999-999-992",
 				interest: "Tables",
