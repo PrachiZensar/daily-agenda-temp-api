@@ -78,8 +78,8 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 			],
 			"helpedGuestsList": [
 				{
-				    id: "123",
-					timeIn: "2019-05-14 10:30",
+				    id: "143",
+					timeIn: "2019-05-15 6:30",
 					guestName: "John Shannon",
 					phone: "999-999-999",
 					interest: "Sofas",
@@ -87,11 +87,11 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					status: "Called",
 					assignedTo: "Christian Fischer",
 					location: "FLR-1",
-					aptStartTime: "2019-05-14 11:00",
+					aptStartTime: "2019-05-15 7:00",
 				},
 				{
-				    id: "124",
-					timeIn: "2019-05-14 11:30",
+				    id: "154",
+					timeIn: "2019-05-15 6:30",
 					guestName: "Blaze Shannon",
 					phone: "999-999-996",
 					interest: "Chandeliers",
@@ -99,11 +99,11 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					status: "Helped",
 					assignedTo: "Mia Verse",
 					location: "FLR-2",
-					aptStartTime: "2019-05-14 13:10",
+					aptStartTime: "2019-05-14 7:10",
 				},
 				{
 				    id: "125",
-					timeIn: "2019-05-14 13:30",
+					timeIn: "2019-05-5 7:30",
 					guestName: "Sharay Mendez",
 					phone: "999-999-992",
 					interest: "Tables",
@@ -111,7 +111,7 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					status: "Helped",
 					assignedTo: "Kara Boland",
 					location: "",
-					aptStartTime: "2019-05-14 13:30",
+					aptStartTime: "2019-05-15 8:30",
 				},
 				{
 				    id: "126",
