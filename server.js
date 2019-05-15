@@ -99,11 +99,11 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					status: "Helped",
 					assignedTo: "Mia Verse",
 					location: "FLR-2",
-					aptStartTime: "2019-05-14 7:10",
+					aptStartTime: "2019-05-15 7:10",
 				},
 				{
 				    id: "125",
-					timeIn: "2019-05-5 7:30",
+					timeIn: "2019-05-15 7:30",
 					guestName: "Sharay Mendez",
 					phone: "999-999-992",
 					interest: "Tables",
@@ -115,7 +115,7 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 				},
 				{
 				    id: "126",
-					timeIn: "2019-05-14 13:30",
+					timeIn: "2019-05-15 13:30",
 					guestName: "Susan Miller",
 					phone: "999-999-222",
 					interest: "Tables",
