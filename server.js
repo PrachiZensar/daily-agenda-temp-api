@@ -33,58 +33,50 @@ app.get('/getUnreadNotificationCount/:id', function(req, res, next) {
 
 
 
-app.get('/getWaitingGuestList/:shopId/:date', function(req, res, next) {
+app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 	res.send({
 	   "msg": "Waiting guest list",
 	   "success": true,
-		"data":[
-			{
-			    id: "123",
-				timeIn: "2019-05-15 5:30",
-				guestName: "John Shannon",
-				phone: "999-999-999",
-				interest: "Sofas",
-				notes: "abcd",
-				status: "Waiting",
-				assignedTo: "Christian Fischer",
-				location: "FLR-1",
-				addToAgenda: true,
-			},
-			{
-			    id: "124",
-				timeIn: "2019-05-15 6:30",
-				guestName: "Blaze Shannon",
-				phone: "999-999-996",
-				interest: "Chandeliers",
-				notes: "",
-				status: "Waiting",
-				assignedTo: "Mia Verse",
-				location: "FLR-2",
-				addToAgenda: false,
-			},
-			{
-			    id: "125",
-				timeIn: "2019-05-15 7:00",
-				guestName: "Sharay Mendez",
-				phone: "999-999-992",
-				interest: "Tables",
-				notes: "abcd",
-				status: "Call Back",
-				assignedTo: "Kara Boland",
-				location: "",
-				addToAgenda: true,
-			}
-		]
-	});
-});
-
-
-
-app.get('/getCompletedGuestList/:shopId/:date', function(req, res, next) {
-	res.send({
-		   "msg": "Completed guest list",
-		   "success": true,
-			"data":[
+		"data": {
+			"waitingGuestsList": [
+				{
+				    id: "123",
+					timeIn: "2019-05-15 5:30",
+					guestName: "John Shannon",
+					phone: "999-999-999",
+					interest: "Sofas",
+					notes: "abcd",
+					status: "Waiting",
+					assignedTo: "Christian Fischer",
+					location: "FLR-1",
+					addToAgenda: true,
+				},
+				{
+				    id: "124",
+					timeIn: "2019-05-15 6:30",
+					guestName: "Blaze Shannon",
+					phone: "999-999-996",
+					interest: "Chandeliers",
+					notes: "",
+					status: "Waiting",
+					assignedTo: "Mia Verse",
+					location: "FLR-2",
+					addToAgenda: false,
+				},
+				{
+				    id: "125",
+					timeIn: "2019-05-15 7:00",
+					guestName: "Sharay Mendez",
+					phone: "999-999-992",
+					interest: "Tables",
+					notes: "abcd",
+					status: "Call Back",
+					assignedTo: "Kara Boland",
+					location: "",
+					addToAgenda: true,
+				}
+			],
+			"helpedGuestsList": [
 				{
 				    id: "123",
 					timeIn: "2019-05-14 10:30",
@@ -134,6 +126,7 @@ app.get('/getCompletedGuestList/:shopId/:date', function(req, res, next) {
 					aptStartTime: "",
 				}
 			]
+		}
 	});
 });
 
