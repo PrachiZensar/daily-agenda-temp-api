@@ -32,7 +32,46 @@ app.get('/getUnreadNotificationCount/:id', function(req, res, next) {
 });
 
 
-
+app.get('/getGuestListStatus', function(req, res, next) {
+	res.send({
+	   "msg": "List of guest list statuses",
+	   "success": true,
+		"data": [
+			{
+				id: 1,
+				status:"Waiting"
+			},
+			{
+				id: 2,
+				status:"Call-Back"
+			},
+			{
+				id: 3,
+				status:"RH-Cafe"
+			},
+			{
+				id: 4,
+				status:"RH-Waiting"
+			},
+			{
+				id: 5,
+				status:"Helped"
+			},
+			{
+				id: 6,
+				status:"Called"
+			},
+			{
+				id: 7,
+				status:"Left"
+			},
+			{
+				id: 8,
+				status:"Scheduled"
+			}
+		]
+	});
+});
 app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 	res.send({
 	   "msg": "Waiting guest list",
