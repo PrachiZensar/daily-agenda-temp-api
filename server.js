@@ -97,7 +97,7 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					phone: "999-999-996",
 					interest: "Chandeliers",
 					notes: "",
-					status: 1,
+					status: 4,
 					assignedTo: "Mia Verse",
 					location: "FLR-2",
 					addToAgenda: false,
