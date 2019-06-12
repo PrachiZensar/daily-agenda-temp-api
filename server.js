@@ -127,6 +127,7 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					assignedTo: "Christian Fischer",
 					location: "FLR-1",
 					aptStartTime: "2019-06-12 7:00",
+                    avgWaitTime: 40
 				},
 				{
 				    id: "154",
@@ -139,6 +140,7 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					assignedTo: "Mia Verse",
 					location: "FLR-2",
 					aptStartTime: "2019-06-12 7:10",
+                    avgWaitTime: 50
 				},
 				{
 				    id: "125",
@@ -151,6 +153,7 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					assignedTo: "Kara Boland",
 					location: "",
 					aptStartTime: "2019-06-12 8:30",
+                    avgWaitTime: 70
 				},
 				{
 				    id: "126",
@@ -163,6 +166,7 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					assignedTo: "",
 					location: "",
 					aptStartTime: "",
+                    avgWaitTime: 82
 				}
 			]
 		}
