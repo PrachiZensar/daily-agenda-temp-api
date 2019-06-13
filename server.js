@@ -89,6 +89,22 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					assignedTo: "Christian Fischer",
 					location: "FLR-1",
 					addToAgenda: true,
+					statusDetails: [
+						{
+							status: 1
+							start_time: "2019-06-12 13:30",
+							end_time: "2019-06-12 14:00"
+						},
+						{
+							status: 3
+							start_time: "2019-06-12 14:00",
+							end_time: "2019-06-12 14:30"
+						},
+						{
+							status: 4
+							start_time: "2019-06-12 14:30"
+						}
+					]
 				},
 				{
 				    id: "124",
@@ -101,6 +117,12 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					assignedTo: "Mia Verse",
 					location: "FLR-2",
 					addToAgenda: false,
+					statusDetails: [
+						{
+							status: 4
+							start_time: "2019-06-12 14:00"
+						}
+					]
 				},
 				{
 				    id: "125",
@@ -113,6 +135,12 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					assignedTo: "Kara Boland",
 					location: "",
 					addToAgenda: true,
+					statusDetails: [
+						{
+							status: 2
+							start_time: "2019-06-12 14:30"
+						}
+					]
 				}
 			],
 			"helpedGuestsList": [
