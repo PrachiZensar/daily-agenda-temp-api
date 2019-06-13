@@ -98,6 +98,11 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 						{
 							status: 3,
 							start_time: "2019-06-13 14:00",
+							end_time: "2019-06-13 14:30"
+						},
+						{
+							status: 4,
+							start_time: "2019-06-13 14:30"
 						}
 					]
 				},
@@ -108,13 +113,13 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					phone: "999-999-996",
 					interest: "Chandeliers",
 					notes: "",
-					status: 4,
+					status: 1,
 					assignedTo: "Mia Verse",
 					location: "FLR-2",
 					addToAgenda: false,
 					statusDetails: [
 						{
-							status: 4,
+							status: 1,
 							start_time: "2019-06-13 14:00"
 						}
 					]
