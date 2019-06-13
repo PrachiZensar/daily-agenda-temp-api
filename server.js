@@ -51,7 +51,7 @@ app.get('/getGuestListStatus', function(req, res, next) {
 			},
 			{
 				id: 4,
-				status:"RH-Waiting"
+				status:"Re-Waiting"
 			},
 			{
 				id: 5,
@@ -98,11 +98,6 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 						{
 							status: 3,
 							start_time: "2019-06-13 14:00",
-							end_time: "2019-06-13 14:30"
-						},
-						{
-							status: 4,
-							start_time: "2019-06-13 14:30"
 						}
 					]
 				},
