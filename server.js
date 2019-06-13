@@ -85,7 +85,7 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					phone: "999-999-999",
 					interest: "Sofas",
 					notes: "abcd",
-					status: 1,
+					status: 3,
 					assignedTo: "Christian Fischer",
 					location: "FLR-1",
 					addToAgenda: true,
