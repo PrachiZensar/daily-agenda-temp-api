@@ -91,17 +91,17 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					addToAgenda: true,
 					statusDetails: [
 						{
-							status: 1
+							status: 1,
 							start_time: "2019-06-12 13:30",
 							end_time: "2019-06-12 14:00"
 						},
 						{
-							status: 3
+							status: 3,
 							start_time: "2019-06-12 14:00",
 							end_time: "2019-06-12 14:30"
 						},
 						{
-							status: 4
+							status: 4,
 							start_time: "2019-06-12 14:30"
 						}
 					]
@@ -119,7 +119,7 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					addToAgenda: false,
 					statusDetails: [
 						{
-							status: 4
+							status: 4,
 							start_time: "2019-06-12 14:00"
 						}
 					]
@@ -137,7 +137,7 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					addToAgenda: true,
 					statusDetails: [
 						{
-							status: 2
+							status: 2,
 							start_time: "2019-06-12 14:30"
 						}
 					]
