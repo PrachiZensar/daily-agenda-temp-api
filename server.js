@@ -84,7 +84,7 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					guestName: "John Shannon",
 					phone: "999-999-999",
 					interest: "Sofas",
-					notes: "abcd",
+					notes: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 					status: 4,
 					assignedTo: "Christian Fischer",
 					location: "FLR-1",
