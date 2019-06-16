@@ -108,7 +108,7 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 				},
 				{
 				    id: "124",
-					timeIn: "2019-06-13 06:00",
+					timeIn: "2019-06-13 05:00",
 					guestName: "Blaze Shannon",
 					phone: "999-999-996",
 					interest: "Chandeliers",
