@@ -100,7 +100,8 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					interest: "Sofas",
 					notes: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 					status: 4,
-					assignedTo: "Christian Fischer",
+					assignedTo: "Kristy Miller",
+					employeeId: "50",
 					location: "FLR-1",
 					addToAgenda: true,
 					statusDetails: [
@@ -128,7 +129,8 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					interest: "Chandeliers",
 					notes: "",
 					status: 1,
-					assignedTo: "Mia Verse",
+					assignedTo: "Drew Sock",
+					employeeId: "70",
 					location: "FLR-2",
 					addToAgenda: false,
 					statusDetails: [
@@ -146,7 +148,8 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					interest: "Tables",
 					notes: "abcd",
 					status: 2,
-					assignedTo: "Kara Boland",
+					assignedTo: "Kelly Saulter",
+					employeeId: "40",
 					location: "",
 					addToAgenda: true,
 					statusDetails: [
