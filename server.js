@@ -120,7 +120,7 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					statusDetails: [
 						{
 							status: 1,
-							start_time: "2019-06-13 06:00"
+							start_time: "2019-06-13 05:00"
 						}
 					]
 				},
