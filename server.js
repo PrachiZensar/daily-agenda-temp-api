@@ -31,6 +31,20 @@ app.get('/getUnreadNotificationCount/:id', function(req, res, next) {
 	});
 });
 
+app.get('/get-list-of-associates/:shopid/:selecteddate', function(req, res, next) {
+	res.send({
+	   "msg": "List of associates",
+	   "success": true,
+	   "data": [	
+		  	{id:40, details:`Kelly Saulter`},
+		    {id:50, details:`Kristy Miller`},
+		    {id:60, details:`Kate Gaponuik`},
+		    {id:70, details:`Drew Sock`},
+		    {id:80, details:`Andrew Jones`},
+		    {id:90, details:`Dian Fossey`}
+		]
+	});
+});
 
 app.get('/getGuestListStatus', function(req, res, next) {
 	res.send({
