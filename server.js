@@ -843,7 +843,7 @@ app.get('/storesList/:userId', function(req, res, next) {
 });
 
 //to employees list
-app.get('/associates-names/11/:date', function(req, res, next) {
+app.get('/associates-names/:id/:date', function(req, res, next) {
   var empArray  = [
     {id:40, name:`John Doe`},
     {id:50, name:`Kristy Miller`},
