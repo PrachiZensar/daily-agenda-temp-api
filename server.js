@@ -94,7 +94,7 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 			"waitingGuestsList": [
 				{
 				    id: "123",
-					timeIn: "2019-06-18 02:30",
+					timeIn: "2019-06-18 14:30",
 					guestName: "John Shannon",
 					phone: "999-999-999",
 					interest: "Sofas",
@@ -107,27 +107,27 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					statusDetails: [
 						{
 							status: 1,
-							start_time: "2019-06-18 02:30",
-							end_time: "2019-06-18 03:00"
+							start_time: "2019-06-18 14:30",
+							end_time: "2019-06-18 15:00"
 						},
 						{
 							status: 3,
-							start_time: "2019-06-18 03:00",
-							end_time: "2019-06-18 03:30"
+							start_time: "2019-06-18 15:00",
+							end_time: "2019-06-18 15:30"
 						},
 						{
 							status: 4,
-							start_time: "2019-06-18 03:30",
-							end_time: "2019-06-18 05:30"
+							start_time: "2019-06-18 15:30",
+							end_time: "2019-06-18 17:30"
 						},
 						{
 							status: 3,
-							start_time: "2019-06-18 05:00",
-							end_time: "2019-06-18 10:30"
+							start_time: "2019-06-18 17:00",
+							end_time: "2019-06-18 22:30"
 						},
 						{
 							status: 4,
-							start_time: "2019-06-18 06:30"
+							start_time: "2019-06-18 22:30"
 						}
 					]
 				},
