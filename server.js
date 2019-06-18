@@ -94,7 +94,7 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 			"waitingGuestsList": [
 				{
 				    id: "123",
-					timeIn: "2019-06-16 11:30",
+					timeIn: "2019-06-18 02:30",
 					guestName: "John Shannon",
 					phone: "999-999-999",
 					interest: "Sofas",
@@ -107,23 +107,33 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					statusDetails: [
 						{
 							status: 1,
-							start_time: "2019-06-16 11:30",
-							end_time: "2019-06-16 12:00"
+							start_time: "2019-06-18 02:30",
+							end_time: "2019-06-18 03:00"
 						},
 						{
 							status: 3,
-							start_time: "2019-06-16 12:00",
-							end_time: "2019-06-16 12:30"
+							start_time: "2019-06-18 03:00",
+							end_time: "2019-06-18 03:30"
 						},
 						{
 							status: 4,
-							start_time: "2019-06-16 12:30"
+							start_time: "2019-06-18 03:30",
+							end_time: "2019-06-18 05:30"
+						},
+						{
+							status: 3,
+							start_time: "2019-06-18 05:00",
+							end_time: "2019-06-18 10:30"
+						},
+						{
+							status: 4,
+							start_time: "2019-06-18 06:30"
 						}
 					]
 				},
 				{
 				    id: "124",
-					timeIn: "2019-06-16 01:00",
+					timeIn: "2019-06-18 01:00",
 					guestName: "Blaze Shannon",
 					phone: "999-999-996",
 					interest: "Chandeliers",
@@ -136,13 +146,13 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					statusDetails: [
 						{
 							status: 1,
-							start_time: "2019-06-16 01:00"
+							start_time: "2019-06-18 01:00"
 						}
 					]
 				},
 				{
 				    id: "125",
-					timeIn: "2019-06-16 08:00",
+					timeIn: "2019-06-18 08:00",
 					guestName: "Sharay Mendez",
 					phone: "999-999-992",
 					interest: "Tables",
@@ -155,7 +165,7 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					statusDetails: [
 						{
 							status: 2,
-							start_time: "2019-06-16 08:00"
+							start_time: "2019-06-18 08:00"
 						}
 					]
 				}
@@ -163,7 +173,7 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 			"helpedGuestsList": [
 				{
 				    id: "143",
-					timeIn: "2019-06-16 06:30",
+					timeIn: "2019-06-18 06:30",
 					guestName: "John Shannon",
 					phone: "999-999-999",
 					interest: "Sofas",
@@ -171,12 +181,12 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					status: 6,
 					assignedTo: "Christian Fischer",
 					location: "FLR-1",
-					aptStartTime: "2019-06-16 07:00",
+					aptStartTime: "2019-06-18 07:00",
                     avgWaitTime: 30
 				},
 				{
 				    id: "154",
-					timeIn: "2019-06-16 07:30",
+					timeIn: "2019-06-18 07:30",
 					guestName: "Blaze Shannon",
 					phone: "999-999-996",
 					interest: "Chandeliers",
@@ -184,12 +194,12 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					status: 5,
 					assignedTo: "Mia Verse",
 					location: "FLR-2",
-					aptStartTime: "2019-06-16 07:45",
+					aptStartTime: "2019-06-18 07:45",
                     avgWaitTime: 15
 				},
 				{
 				    id: "125",
-					timeIn: "2019-06-16 07:35",
+					timeIn: "2019-06-18 07:35",
 					guestName: "Sharay Mendez",
 					phone: "999-999-992",
 					interest: "Tables",
@@ -197,12 +207,12 @@ app.get('/getGuestList/:shopId/:date', function(req, res, next) {
 					status: 5,
 					assignedTo: "Kara Boland",
 					location: "",
-					aptStartTime: "2019-06-16 08:30",
+					aptStartTime: "2019-06-18 08:30",
                     avgWaitTime: 55
 				},
 				{
 				    id: "126",
-					timeIn: "2019-06-16 08:00",
+					timeIn: "2019-06-18 08:00",
 					guestName: "Susan Miller",
 					phone: "999-999-222",
 					interest: "Tables",
